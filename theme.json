@@ -1,0 +1,43 @@
+{
+  "variant": "professional",
+  "primary": "hsl(215, 35%, 37%)",
+  "appearance": "light",
+  "radius": 0.5,
+  "colors": {
+    "background": "hsl(183, 85%, 93%)",
+    "foreground": "hsl(213, 24%, 19%)",
+    "muted": {
+      "DEFAULT": "hsl(201, 51%, 72%)",
+      "foreground": "hsl(213, 24%, 19%)"
+    },
+    "accent": {
+      "DEFAULT": "hsl(12, 84%, 62%)",
+      "foreground": "hsl(0, 0%, 100%)"
+    },
+    "card": {
+      "DEFAULT": "hsl(0, 0%, 100%)",
+      "foreground": "hsl(213, 24%, 19%)"
+    },
+    "popover": {
+      "DEFAULT": "hsl(0, 0%, 100%)",
+      "foreground": "hsl(213, 24%, 19%)"
+    },
+    "border": "hsl(213, 24%, 19%, 0.2)",
+    "input": "hsl(213, 24%, 19%, 0.1)",
+    "primary": {
+      "DEFAULT": "hsl(215, 35%, 37%)",
+      "foreground": "hsl(0, 0%, 100%)"
+    },
+    "secondary": {
+      "DEFAULT": "hsl(201, 51%, 72%)",
+      "foreground": "hsl(213, 24%, 19%)"
+    },
+    "destructive": {
+      "DEFAULT": "hsl(12, 84%, 62%)",
+      "foreground": "hsl(0, 0%, 100%)"
+    },
+    "muted-foreground": "hsl(213, 24%, 19%, 0.5)",
+    "accent-foreground": "hsl(12, 84%, 62%)",
+    "ring": "hsl(215, 35%, 37%, 0.3)"
+  }
+}
