@@ -9,6 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
+  base: "/AiResume/", // 🔥 Change this to your actual GitHub repo name
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -28,9 +29,10 @@ export default defineConfig({
       "@shared": path.resolve(__dirname, "shared"),
     },
   },
-  root: path.resolve(__dirname, "client"),
+  root: path.resolve(__dirname, "client"), // Keep this only if your main.tsx is inside "client/src"
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist"), // 🔥 Change from "dist/public" to just "dist"
     emptyOutDir: true,
   },
 });
+
